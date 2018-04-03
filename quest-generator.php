@@ -12,12 +12,20 @@
 <div class="quest-panel">
     <div class="title"><h1>QUEST GENERATOR</h1></div>
         <div class="quest">
-            <div class="quest-title"></div>
-            <div class="quest-location"></div>
-            <div class="quest-details"></div>
+            <div class="quest-title"><h2>QUEST TITLE</h2></div>
+            <div class="quest-location"><p><b>QUEST LOCATION</b></p></div>
+            <div class="quest-details">
+                <p>
+                There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in some form, by injected humour, 
+                or randomised words which don't look even slightly believable. If you are 
+                going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
+                embarrassing hidden in the middle of text.
+                </p>
+            </div>
             <div class="quest-a-d">
-                <div class="quest-accept"></div>
-                <div class="quest-decline"></div>
+                <div class="quest-accept">ACCEPT QUEST</div>
+                <div class="quest-decline">DECLINE QUEST</div>
             </div>
 
         </div>
