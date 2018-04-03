@@ -24,9 +24,11 @@ body{
     background-repeat: no-repeat;
     height:auto;
     width:80%;
+    position: relative;
 }
 .quest{
     height:300px;
-    width:100%;
-    background:#000;
+    background:rgb(41, 41, 41);
+    margin:10px;
+    
 }
