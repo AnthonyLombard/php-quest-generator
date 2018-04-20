@@ -14,7 +14,7 @@
     <div class="title"><h1>QUEST GENERATOR</h1></div>
         <div class="quest">
             <div class="quest-title"><h2>QUEST TITLE</h2></div>
-            <div class="quest-location"><p><b><?php echo $quest_1->questGalaxy; ?></b></p></div>
+            <div class="quest-location"><h3><b><?php echo $quest_1->questGalaxy; ?></b></h3></div>
             <div class="quest-details">
                 <p>
                 There are many variations of passages of Lorem Ipsum available, 

@@ -9,7 +9,9 @@
             $this->questGalaxy = $questGalaxy;
         }
         public function getTitle(){
-            
+            $firstPart = array('Get','fetch','Take','carry');
+            $secondPart = array('Nelod','Gary','Bertus','Francene');
+            $thirdPart = array('Fuel','MK-32','priceless artifact','Biosynth');
         }
         public function genQuest(){
             $this->getLocation();
