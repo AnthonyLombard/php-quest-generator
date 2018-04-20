@@ -1,15 +1,23 @@
 <?php
-
-
-
     class quest{
-        $result = 1 + 1;
-        return $result;
+       public $questGalaxy = 'Nothing';
+
+        public function getLocation(){
+            $locations = array('Gertus Prime','Helios minor','Yelod serup','hujah 4th');
+            $location = array_rand($locations,1); 
+            $questGalaxy = $locations[$location];
+            $this->questGalaxy = $questGalaxy;
+        }
+        public function getTitle(){
+            
+        }
+        public function genQuest(){
+            $this->getLocation();
+        }
     }
 
     $quest_1 = new quest;
-
-    var_dump($quest_1);
-
+    $quest_1->genQuest();
+    
 
 ?>
